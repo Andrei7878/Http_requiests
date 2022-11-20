@@ -2,6 +2,7 @@ import requests
 import re
 import json
 
+
 dict_links = {}
 
 
@@ -25,6 +26,7 @@ def write_json(dict_l):
 
 
 data = [input() for _ in range(int(input()))]
+
 
 
 if __name__ == '__main__':
